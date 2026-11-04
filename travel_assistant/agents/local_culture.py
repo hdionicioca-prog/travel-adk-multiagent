@@ -1,7 +1,6 @@
 
 from google.adk.agents import Agent
 
-
 local_culture_agent = Agent(
     name="local_culture_agent",
     model="gemini-2.5-flash",

@@ -1,7 +1,6 @@
 
 from google.adk.agents import Agent
 
-
 itinerary_agent = Agent(
     name="itinerary_agent",
     model="gemini-2.5-flash",

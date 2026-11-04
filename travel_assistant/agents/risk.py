@@ -3,7 +3,6 @@ from google.adk.agents import Agent
 
 from travel_assistant.tools.risk_tools import assess_basic_travel_risks
 
-
 risk_reviewer_agent = Agent(
     name="risk_reviewer_agent",
     model="gemini-2.5-flash",

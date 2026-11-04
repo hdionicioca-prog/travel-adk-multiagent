@@ -7,7 +7,6 @@ from travel_assistant.agents.local_culture import local_culture_agent
 from travel_assistant.agents.risk import risk_reviewer_agent
 from travel_assistant.agents.web_search import web_search_agent
 
-
 travel_coordinator_agent = Agent(
     name="travel_coordinator_agent",
     model="gemini-2.5-flash",
