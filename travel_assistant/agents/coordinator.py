@@ -9,7 +9,7 @@ from travel_assistant.agents.web_search import web_search_agent
 
 travel_coordinator_agent = Agent(
     name="travel_coordinator_agent",
-    model="gemini-2.5-flash",
+    model="gemini-3.5-flash-lite",
     description="Coordinates a team of specialized travel agents.",
     instruction="""
 You are the coordinator of a travel planning multiagent system.

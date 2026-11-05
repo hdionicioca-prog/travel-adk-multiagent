@@ -3,7 +3,7 @@ from google.adk.agents import Agent
 
 local_culture_agent = Agent(
     name="local_culture_agent",
-    model="gemini-2.5-flash",
+    model="gemini-3.5-flash-lite",
     description="Recommends local food, customs and useful phrases.",
     instruction="""
 You are a local culture travel advisor.

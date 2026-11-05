@@ -4,7 +4,7 @@ from google.adk.tools import google_search
 
 web_search_agent = Agent(
     name="web_search_agent",
-    model="gemini-2.5-flash",
+    model="gemini-3.5-flash-lite",
     description="Searches the web for current travel information.",
     instruction="""
 You are a travel research agent.
